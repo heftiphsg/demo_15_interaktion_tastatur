@@ -24,6 +24,8 @@ def keyPressed():
         txt = "CCC"
     if key == "d":
         txt = "DDD"
+    if key == "e":
+        txt = "EEE"
 
 def keyReleased():
     global txt
