@@ -5,7 +5,7 @@ def setup():
     background(0, 0, 0)
     stroke(255, 255, 255)
     strokeWeight(8)
-    textSize(36)
+    textSize(48)
     textAlign(CENTER)
     
 def draw():
@@ -22,6 +22,8 @@ def keyPressed():
         txt = "BBB"
     if key == "c":
         txt = "CCC"
+    if key == "d":
+        txt = "DDD"
 
 def keyReleased():
     global txt
